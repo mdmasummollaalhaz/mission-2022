@@ -1,0 +1,275 @@
+/* ----------------
+**  Global css
+------------------*/
+body{
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+}
+section{
+    padding: 0px 140px 30px 140px;
+    display: flex;
+}
+section img{
+    width: 85%;
+}
+.half-width{
+    width:50%;
+}
+.width-image{
+    width: 40%;
+}
+.width-text{
+    width: 60%;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+    color:#333333;
+    ;
+}
+h1{
+    font-size: 55px;
+    line-height: 40px;
+    font-weight: 400;
+
+}
+h2{
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 700;
+
+}
+.main-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #3E3E3E;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+}
+.orange-text{
+    color: #FFAD5A;
+}
+.red-text{
+    color: #FF5959;
+}
+.button{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: #FF5959;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+/* -------------
+**  Hero area
+----------------*/
+.hero-area{
+    margin: 50px 0px 0px 0px;
+}
+.hero-area .hero-text-area{
+    margin: 60px 120px 0px 0px;
+}
+.hero-area .hero-title{
+    border-left: 3px solid #FF5959;
+    border-radius: 2px;
+    padding: 0px 0px 0px 10px;
+}
+.hero-area .hero-title h1{
+    font-family: 'Yeseva One', cursive;
+}
+.hero-area .hero-text-area p{
+    margin-bottom: 30px;
+}
+.hero-area .hero-text-area .scroll-text{
+    margin-top: 30px;
+}
+
+
+/* ----------------
+**  Mission area
+------------------*/
+section.mission-area {
+    display: block;
+}
+.mission-area .box-area{
+    display: flex;
+    margin: 60px 0px 0px 0px;
+}
+.mission-area .box-area .box{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 26px;
+    padding: 25px 15px;
+}
+.mission-area .box-area .box-two{
+    background: rgba(255, 89, 89, 0.1);
+    margin: 0px 30px; 
+}
+.mission-area .box-area .box-three{ 
+    background: #FFF4D6;  
+}
+.mission-area .box-area .box img{
+    width: 150px;
+}
+.mission-area .box-area .box h4{
+    font-size: 24px;
+    line-height: 0px;
+    font-weight: 600;
+}
+
+/* ---------------
+**  Shapes area
+-----------------*/
+.shapes{
+    background-image: url("../img/shapes/shapes-box.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 150px;
+    position: relative;
+    top: -100px
+}
+
+/* ---------------
+**  Coding area
+-----------------*/
+.coding-area{
+    background-image: url("../img/shapes/shapes-box.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    margin-top: -125px;
+}
+.coding-area .width-image img{
+    z-index: 2;
+}
+.coding-area .width-image .backgroundImg{
+    z-index: -1;
+    position: absolute;
+    width: 210px;
+    left: 55px;
+    margin-top: 60px;
+}
+.coding-area .text-area{
+    margin-top: 30px;
+}
+.coding-area .text-area .title{
+
+}
+.coding-area .text-area p{
+    margin-bottom: 30px;
+}
+
+/* ---------------
+**  Coding area
+-----------------*/
+.project-area{
+    margin-top: 30px;
+}
+.project-area .width-image img{
+    width: 100%;
+}
+.project-area .text-area{
+    padding: 0px 50px 0px 0px;
+}
+.project-area .text-area p{
+    margin-bottom: 30px;
+}
+
+
+/* ---------------
+**  App area
+-----------------*/
+section.app-area {
+    display: block;
+}
+.app-area{
+}
+.app-area .box{
+    display: flex;
+}
+.app-area .box .width-app{
+    width: 50%;
+}
+.app-area .box .width-app img{
+    width: 60%;
+    padding-left: 80px;
+}
+.app-area .box .width-app-text{
+    width: 50%;
+    margin: auto;
+}
+.app-area .box .width-app-text p{
+    margin-bottom: 30px;
+}
+
+/* ---------------
+**  Blog area
+-----------------*/
+section.blog-area {
+    display: block;
+}
+.blog-area{
+    margin-bottom: 80px;
+}
+.blog-area h3{
+    text-align: center;
+    font-weight: 400;
+}
+.blog-area .box-area{
+    display: flex;
+    margin: 60px 0px 0px 0px;
+}
+.blog-area .box-area .box{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 4px 13px -6px #d3c9c9;
+    
+}
+.blog-area .box-area .blogTwo{
+    margin: 0px 20px;
+}
+.blog-area .box-area .box img{
+    width: 450px;
+}
+.blog-area .box-area .box .contant{
+    padding: 10px 15px;
+}
+.blog-area .box-area .box .contant h4{
+    font-weight: 500;
+    line-height: 0px;l
+}
+.blog-area .box-area .box .contant h3{
+    text-align: left;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+/* ---------------
+**  Footer area
+-----------------*/
+section.footer {
+    display: block;
+    text-align: center;
+}
+.footer{
+    background-color: #0B0D17;
+    padding: 20px 0px;
+}
+.footer h2{
+    color: #fff;
+    font-family: 'Lobster', cursive;
+}
+.footer p{
+    color: #D9DBE1;
+}
